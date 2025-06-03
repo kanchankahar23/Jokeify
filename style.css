@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('joke.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 30vh;
+    width: 60%;
+    text-align: center;
+
+    /* background-color: rebeccapurple; */
+    margin-top: 70px;
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    color: #f1af08;
+}
+#joke{
+    font-size: 1.8rem;
+     color: black;
+     margin-top: 90px;
+}
+h3,h4{
+    font-size: 1.6rem;
+     color: black;
+}
+p{
+    font-size: 1.2rem;
+}
+    button {
+  background-color: #FF6B6B;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  font-size:1.2rem;
+  padding: 15px 30px;
+  margin-top: 40px;
+}
+.nextbtn{
+     background-color:rgb(11, 11, 74);
+  color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  font-size:1.2rem;
+  padding: 15px 30px;
+  margin-top: 40px;
+}
+
+button:hover {
+  background-color: #FFD93D;
+  color: #2E2E2E;
+}
+
+.highlight {
+  color: #6BCB77;
+}
+
+footer {
+    background-color: 	#c8f3f3;
+    color: #120000;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 1rem;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
